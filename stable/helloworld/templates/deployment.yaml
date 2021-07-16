@@ -28,7 +28,7 @@ spec:
     {{- end }}
       containers:
       - name: {{.Values.name}}
-        image: {{.Values.image}}
+        image: {{.Values.image.repository}}:{{.Values.image.tag}}
         imagePullPolicy: Always
         resources:
           requests:
