@@ -2,9 +2,7 @@ name: helloworld
 replicas: 2
 
 
-image: 
-  repository: anson1138/helloworld2
-  tag: 1
+image: anson1138/helloworld2:1
 #image: anson1138/helloworld:3
 
 createNamespace: true
