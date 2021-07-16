@@ -1,5 +1,5 @@
 name: helloworld
-replicas: 1
+replicas: 2
 
 
 image: anson1138/helloworld:3
